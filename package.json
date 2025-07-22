@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-api-server",
+  "version": "1.0.0",
+  "description": "A simple API server for a chatbot that interacts with OpenAI's API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@chroma-core/default-embed": "^0.1.8",
+    "chromadb": "^3.0.9",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mammoth": "^1.9.1",
+    "openai": "^4.104.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
